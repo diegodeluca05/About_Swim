@@ -36,7 +36,7 @@ overflow: scroll;
 
 .flex-container > div {
 background-color: #f1f1f1;
-width: 400px;
+width: 700px;
 margin: 10px;
 text-align: center;
 line-height: 15px;
@@ -99,10 +99,8 @@ nav li {
     float:left;
   
 }
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
+
+
 li {
     margin-bottom: 0px;
 }
