@@ -33,7 +33,18 @@ overflow: scroll;
 
 
 }
+@media(max-width:800px){
+  .flex-container{
+      flex-direction: column;
 
+  }
+  .flex-comtainer>div{
+      width: 800px;
+  }
+  hr{
+      width:100px; 
+  }
+}
 .flex-container > div {
 background-color: #f1f1f1;
 width: 700px;
