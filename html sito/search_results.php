@@ -5,7 +5,7 @@ if (isset($_GET['query'])) {
     // Verifica se la query è "rana"
     if (strtolower($search_query) == "rana") {
         // Reindirizza l'utente a una pagina specifica quando la query è "rana"
-        header("Location: schedarana.html");
+        header("Location: schede di allenamento/1-rana.html");
         exit;
     }
     // Verifica se la query è "dorso"
