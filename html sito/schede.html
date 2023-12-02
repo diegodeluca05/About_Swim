@@ -20,21 +20,58 @@
       <link rel="stylesheet" href="style.css">  
 </head>
 <style>
-img{
-  height: 50px;
-  width: 50px;
-}
-a{
+        .button {
+  position: relative;
+  background-color: yellowgreen;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 5px;
+  width: 10spx;
+  text-align: center;
+  transition-duration: 0.4s;
   text-decoration: none;
-  color: black;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 100%;
+  padding-left: 150%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.1s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
 }
 </style>
 <body>     
         
         
                    
+        
+        <nav>  
+            
+ <ul>
+<li><a href="nuoto2.html.html">Impara a nuotare</a></li>
+      <li><a href="shopping.html">Shopping</a></li>
+                <li><a href="login-page.html">Salva i tuoi progressi</a></li>
+    </ul>
+    
+            
+        </nav>
         <nav class="cercare">
-          <ul class="cercare1" style="color:black">
+          <ul class="cercare1" >
             <li>
           <form action="search_results.php" method="get">
             <input type="text" name="query" placeholder="Cerca..." />
@@ -49,87 +86,105 @@ a{
       </li>
       </ul>
         </nav>
-        <nav>  
-            
- <ul>
-<li><a href="nuoto2.html.html">Impara a nuotare</a></li>
-      <li><a href="shopping.html">Shopping</a></li>
-                <li><a href="login-page.html">Salva i tuoi progressi</a></li>
-    </ul>
-    
-            
-        </nav>
         <br>
        
           <h1>LE NOSTRE SCHEDE DI ALLENAMENTO</h1>
-     
-       <div class="flex-container"> 
-            <div>
-            <img src="../immagini sito/logo.jpg">
-            <h3> <a href="1-rana.html"> programma per il miglioramento della rana</a></h3>
-            <ul>
-            <li>miglioramento della tecnica</li>
-            <li>aumento della velocità</li>
-            <li>aumento dello spazio per bracciata</li>
-            </ul>
-            <button class="button"><a href="rana.html">read more</a></button>
-             </div>
-            <div>
-                <img src="../immagini sito/logo.jpg">
-            <h3> <a href="1-stile.html"> programma per il miglioramento dello stile</a></h3>
-             <ul>
-            <li>miglioramento della tecnica</li>
-            <li>aumento della velocità</li>
-            <li>aumento dello spazio per bracciata</li>
-             </ul>
-             <button class="button" style="color: #333;"><a href="rana.html">read more</a></button>
+          <div class="immagine1">
+            <div class="cap">
+            <span class="bordo">ABOUT-SWIM</span>
             </div>
-            <div>
-                <img src="../immagini sito/logo.jpg">
-            <h3> <a href="1dorso.html"> programma per il miglioramento del dorso</a></h3>
-            <ul>
-            <li>miglioramento della tecnica</li>
-            <li>aumento della velocità</li>
-            <li>aumento dello spazio per bracciata</li>
-            </ul>
-             <button style="color: #333;" class="button" ><a href="rana.html">read more</a></button>
+          </div>
+          
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>SCHEDA PER LA VELOCITA'</p>
+            <p>perfetto per:<br>
+            aumento della tecnica<br>
+            aumento dello spazio di bracciata<br>
+          aumento della velocità</p>
+            <button style="width: 100px;"><a href="schede di allenamento/1velocità.html">read more</a></button>  
+          </div>
+          </div>
+          
+          
+          <div class="immagine1">
+            <div class="cap">
+            <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL</span>
             </div>
-            <div>
-                <img src="../immagini sito/logo.jpg">
-            <h3> <a href="delfino.html"> programma per il miglioramento del delfino</a></h3>
-            <ul>
-            <li>miglioramento della tecnica</li>
-            <li>aumento della velocità</li>
-            <li>aumento dello spazio per bracciata</li>
-            </ul>
-             <button  style="color: #333" class="button"  ><a href="rana.html">read more</a></button>
+          </div>
+          
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>SCHEDA PER LA RESISTENZA</p>
+            <p>perfetto per:<br>
+            aumento della tecnica<br>
+            aumento dello spazio di bracciata<br>
+          aumento della velocità</p>
+            <button style="width: 100px;"><a href="schede di allenamento/1resistenza.html">read more</a></button>  
+          </div>
+          </div>
+          
+          
+          <div class="immagine1">
+            <div class="cap">
+            <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
             </div>
-            <div>
-                <img src="../immagini sito/logo.jpg">
-            <h3> <a href="1resistenza.html"> programma per l' aumento della resistenza </a></h3>
-            <ul>
-            <li>miglioramento della tecnica</li>
-            <li>aumento della velocità</li>
-            <li>aumento dello spazio per bracciata</li>
-            </ul>
-             <button class="button"><a href="rana.html">read more</a></button>
+          </div>
+          
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>SCHEDA PER IL DORSO</p>
+            <p>perfetto per:<br>
+            aumento della tecnica<br>
+            aumento dello spazio di bracciata<br>
+          aumento della velocità</p>
+            <button style="width: 100px;"><a href="schede di allenamento/1dorso.html">read more</a></button>  
+          </div>
+          </div>
+          
+          
+          
+         
+          <div class="immagine1">
+            <div class="cap">
+            <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
             </div>
-            <div>
-                <img src="../immagini sito/logo.jpg">
-            <h3> <a href="1velocità.html"> programma per l'aumento della velocità</a></h3>
-            <ul>
-            <li>miglioramento della tecnica</li>
-            <li>aumento della velocità</li>
-            <li>aumento dello spazio per bracciata</li>
-            </ul>
-             <button style="color: #333" class="button"><a href="rana.html">read more</a></button>
+          </div>
+          
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>SCHEDA PER LO STILE</p>
+            <p>perfetto per:<br>
+            aumento della tecnica<br>
+            aumento dello spazio di bracciata<br>
+          aumento della velocità</p>
+            <button style="width: 100px;"><a href="schede di allenamento/1-stile.html">read more</a></button>  
+          </div>
+          </div>
+          
+          <div class="immagine1">
+            <div class="cap">
+            <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
             </div>
-            
-             
-        
-       </div>
+          </div>
+          
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>SCHEDA PER LA RANA</p>
+            <p>perfetto per:<br>
+            aumento della tecnica<br>
+            aumento dello spazio di bracciata<br>
+          aumento della velocità</p>
+            <button style="width: 100px;"><a href="schede di allenamento/1-rana.html">read more</a></button>  
+          </div>
+          </div>
+          
   
-       
+          <div class="immagine1">
+            <div class="cap">
+            <span class="bordo"><a href="../index.html">home page</a></span>
+            </div>
+          </div>  
     </body>
     </html>
   
