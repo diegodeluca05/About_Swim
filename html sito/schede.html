@@ -61,6 +61,31 @@
 div{
   text-align: center;
 }
+.cap {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.cap span.bordo {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .immagine1, {
+    background-attachment: scroll;
+  }
+}
 </style>
 <body>     
         
@@ -70,28 +95,10 @@ div{
         <nav>  
             
  <ul>
-<li><a href="nuoto2.html.html">Impara a nuotare</a></li>
-      <li><a href="shopping.html">Shopping</a></li>
-                <li><a href="login-page.html">Salva i tuoi progressi</a></li>
+<li><a href="../index.html">Impara a nuotare</a></li>
     </ul>
     
             
-        </nav>
-        <nav class="cercare">
-          <ul class="cercare1" >
-            <li>
-          <form action="search_results.php" method="get">
-            <input type="text" name="query" placeholder="Cerca..." />
-            <input type="submit" value="Cerca" />
-        </form>
-      </li>
-        <li>
-          <a href="nuoto2.html.html"><img src="../immagini sito/logo.jpg"
-        width="70px;"
-        height="70px";
-        ></a>
-      </li>
-      </ul>
         </nav>
         <br>
        
@@ -109,7 +116,7 @@ div{
             aumento della tecnica<br>
             aumento dello spazio di bracciata<br>
           aumento della velocità</p>
-            <button style="width: 100px; ce"><a href="schede di allenamento/1velocità.html">read more</a></button>  
+            <button style="width: 100px;"><a href="schede di allenamento/1velocità.html">read more</a></button>  
           </div>
           </div>
           
@@ -189,7 +196,7 @@ div{
   
           <div class="immagine1">
             <div class="cap">
-            <span class="bordo"><a href="../index.html">home page</a></span>
+            <span class="bordo" style="color: #ddd;"><a href="../index.html" style="color: #ddd;">home page</a></span>
             </div>
           </div>  
     </body>
