@@ -24,7 +24,7 @@
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+ color: white;
 }
 
 .immagine1, .immagine2 .immagine3 {
@@ -38,14 +38,14 @@
 }
 .immagine1 {
  background-image: url("Logo\ Design.png");
-  min-height: 100%;
+  max-height: 100%;
 }
 
 
 .cap {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 30%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -54,12 +54,35 @@
 .cap span.bordo {
   background-color: #111;
   color: #fff;
-  padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  color: #ddd;
+}
+.progetto {
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;
+overflow: scroll;
+width:100%;
+padding-left: 5%;
+padding-right: 5%;
+background-color: #282E34;
+gap: 15px;
 }
 
-
+.progetto > div {
+background-color: #282E34;
+width: 40%;
+text-align: center;
+line-height: 15px;
+font-size: 12px;
+border: 1px white solid ;
+gap: 19px;
+}
+.progetto > div:hover {
+  transform: scale(1.05);
+  transition: scale cubic-bezier(0.47, 0, 0.745, 0.715);
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -82,7 +105,7 @@
   </li>
  </ul>
 <ul>
-      <li><a href="shopping.html"style="color: black;">Shopping</a></li>
+  
 </ul>
 <ul>
       <li class="dropdown">
@@ -91,7 +114,7 @@
       </li>
    
       
-<a href="https://www.instagram.com/about_swim_/"><i class="fa fa-instagram" style="font-size:36px;color:black"></i>>&#xf16d;</i></a>
+<a href="https://www.instagram.com/about_swim_/"><i class="fa fa-instagram" style="font-size:36px;color:black" ></i>>&#xf16d;</i></a>
 </nav>
   <div class="immagine1">
     <div class="cap">
@@ -99,41 +122,86 @@
     </div>
   </div>
   
-  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
     <h3 style="text-align:center;">IL PROGETTO</h3>
     <p>about-swim è un progetto a lungo termine che ha come primo obiettivo la divulgazione riguardo il nuoto. La nostra idea è quella di offrire una vasta gamma di esercizi e di schede che permette di migliorare la tecnica, lo spazzio per la bracciata, la velocità e la resistenza. </p>
-  </div>
-  
-  <div class="immagine1">
-    <div class="cap">
-    <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL</span>
-    </div>
-  </div>
-  
-  <div style="position:relative;">
-    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.
+    about-swim offre una vasta selezione di esercizi e schede ideali per il miglioramento della nuotata</p>
+    
     </div>
   </div>
   
   <div class="immagine1">
     <div class="cap">
-    <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+    <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
     </div>
   </div>
   
-  <div style="position:relative;">
-    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>about-swim offre una vasta selezione di esercizi e schede ideali per il miglioramento della nuotata</p>
+  <div style="position:relative; background-color: #282E34;">
+    <div style="color:white;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+
+      <h4 style="background-color: #282E34;">I PIU'POPOLARI</h4>
+  <div class="progetto"> 
+      <div>
+      <img src="Logo Design.png"h1
+      height="80px";
+      width="80px";
+      >
+      <h3> <a href="rana.html"> programma per il miglioramento della rana</a></h3>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+      <button class="button1"><a href="rana.html">read more</a></button>
+       </div>
+      <div>
+          <img src="Logo Design.png" 
+          height="80px";
+          width="80px";
+          >
+  
+      <h3> <a href="stile.html"> programma per il miglioramento dello stile</a></h3>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+       <button class="button1" style="color: #333;"><a href="stile.html">read more</a></button>
+      </div>
+      <div>
+          <img src="Logo Design.png"
+          height="80px";
+          width="80px";
+          >
+      <h3> <a href="dorso.html"> programma per il miglioramento del dorso</a></h3>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+       <button style="color: #333;" class="button1" ><a href="dorso.html">read more</a></button>
+      </div>
+      <div>
+          <img src="Logo Design.png" 
+          height="80px";
+          width="80px";>
+      <h3> <a href="delfino.html"> programma per il miglioramento del delfino</a></h3>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+      <p>miglioramento della tecnica</p>
+       <button  style="color: #333" class="button1"  ><a href="delfino.html">read more</a></button>
+      </div>
     </div>
   </div>
-  
-  
+  </div>
+    
+  <div class="immagine1">
+    <div class="cap">
+    <span class="bordo" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+    </div>
+  </div>
+
   
   <div class="immagine1">
     <div class="cap">
-    <span class="bordo"><a href="html sito/schede.html">start now</a></span>
+    <span class="bordo" style="color: #000;"><a href="html sito/schede.html" class="a">start now</a></span>
     </div>
+
   </div>  
 </body>
 </html>
